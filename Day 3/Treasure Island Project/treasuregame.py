@@ -22,3 +22,31 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
+print("note: Please answer each question in one word")
+print("""You wake up from your slumber to see two paths on either side of you, 
+one on your right and one on your left. """)
+
+direction = input("Would you like to go left or right? ")
+movement = "placeholder"
+
+    if  direction == "Left" or direction == "left":
+        print("""You walk down the path to your left and reach a lake on the island.
+        You see a boat approaching in the distance, but you also are very impatient.
+               """)
+        movement = input("""Would you like to swim across the lake now or wait
+                            for the boat to arrive?
+                         """)
+    else:
+        print("""You set out on the path to your right and start walking, 
+        only to fall into a hidden hole and instantly die. 
+        :( Game Over, better luck next time! """)
+
+if movement == "Wait" or movement == "wait"
+
+else:
+    print("You tried to ")
+
+
+
+movement = input("Would you like to swim or wait? ")
+door_choice = input("Would you like to enter the red, blue, or yellow door? ")
