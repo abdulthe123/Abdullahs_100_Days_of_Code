@@ -1,6 +1,6 @@
 type: theory
 files:
-  - name: main.py
+  - name: hangman_game.py
     visible: true
     learner_created: false
   - name: __init__.py
@@ -15,6 +15,6 @@ files:
   - name: hangman_words.py
     visible: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+record: 10
 post_submission_on_open: true
